@@ -1,6 +1,5 @@
-# SalNet: Lightweight and Efficient Salient Object Detection Network
+# PVT-SalNet: Lightweight and Efficient Salient Object Detection Network
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Introduction
 
