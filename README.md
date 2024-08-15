@@ -1,4 +1,4 @@
-# PVT-SalNet: Lightweight and Efficient Salient Object Detection Network
+# TrapSalNet: A Lightweight Transformer-Driven Multi-level Trapezoidal Attention Network for Efficient Saliency Detection
 
 
 ## Introduction
@@ -8,7 +8,7 @@ Salient Object Detection (SOD) has seen significant advancements with the develo
 ## Key Features
 
 - **Lightweight Pyramid Vision Transformer Backbone**: Efficiently extracts multi-scale features while maintaining a balance between computational cost and performance.
-- **Contextual Feature Extraction Block (CFEB)**: Utilizes dilated convolutions to capture rich contextual information at each scale.
+- **Contextual Feature Refinement Block (CFRB)**: Utilizes dilated convolutions to capture rich contextual information at each scale.
 - **Coordinate Attention (COA) Module**: Highlights important spatial locations in the initial feature maps to improve spatial feature learning.
 - **Efficient Multi-Headed Self-Attention (EMHSA) Module**: Captures long-range dependencies and global context efficiently.
 - **Efficient Channel Attention (ECA) Module**: Reduces information loss during feature fusion by adaptively recalibrating channel-wise feature responses.
@@ -63,7 +63,7 @@ If you use this code in your research, please cite our paper:
 
 ```bibtex
 @article{Usman2024SalNet,
-  title={SalNet: Lightweight and Efficient Salient Object Detection Network},
+  title={TrapSalNet: A Lightweight Transformer-Driven Multi-level Trapezoidal Attention Network for Efficient Saliency Detection},
   author={Usman, Talha and others},
   journal={Journal Name},
   year={2024}
