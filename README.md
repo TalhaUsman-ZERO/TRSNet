@@ -37,22 +37,6 @@ To clone and set up this project, follow these steps:
     pip install -r requirements.txt
     ```
 
-## Usage
-
-Once you have installed the dependencies, you can run the following commands to train or test the model:
-
-- **To train the model:**
-    ```bash
-    python train.py --config config/train_config.yaml
-    ```
-
-- **To test the model:**
-    ```bash
-    python test.py --config config/test_config.yaml
-    ```
-
-Refer to the `config` directory for configuration files that can be customized for different datasets and settings.
-
 ## Results and Pre-trained Models
 
 Pre-trained models and results on benchmark datasets can be found in the [releases section](https://github.com/TalhaUsman-ZERO/SalNet/releases) of this repository.
